@@ -1,9 +1,9 @@
 [
     {
-      "name": "Cat-Jam Synced",
-      "description": "An extension that lets a cat jam in sync with the beat of your music.",
+      "name": "Bad-Apple-Jam Synced",
+      "description": "Now in your Spotify too.",
       "preview": "marketplace/preview.gif",
-      "main": "marketplace/cat-jam.js",
+      "main": "marketplace/bad_apple.js",
       "readme": "README.md"
     }
 ]
