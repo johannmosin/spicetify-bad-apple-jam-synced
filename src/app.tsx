@@ -7,7 +7,7 @@ async function getPlaybackRate(audioData) {
     let videoDefaultBPM = Number(settings.getFieldValue("catjam-webm-bpm"));
     console.log(videoDefaultBPM);
     if (!videoDefaultBPM) {
-        videoDefaultBPM = 135.48;
+        videoDefaultBPM = 138;
     }
 
     if (audioData && audioData?.track) {
@@ -130,7 +130,7 @@ async function createWebMVideo() {
         let videoURL = String(settings.getFieldValue("catjam-webm-link"));
         
         if (!videoURL) {
-            videoURL = "https://github.com/BlafKing/spicetify-cat-jam-synced/raw/main/src/resources/catjam.webm"
+            videoURL = "https://github.com/johannmosin/spicetify-bad-apple-jam-synced/raw/refs/heads/main/src/resources/bad_apple.webm"
         }
 
         // Create a new video element to be inserted
